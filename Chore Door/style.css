@@ -1,0 +1,92 @@
+body {
+    background-color: #010165;
+    margin: 0px;
+    color: white;
+}
+
+header {
+    background-color: #00ffff;
+    text-align: center;
+}
+
+.title-row {
+    margin-top: 42px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.instructions-title {
+    display: inline;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #00ffff;
+}
+
+.instructions-row {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.instructions-number {
+    padding-right: 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 46px;
+    color: #00ffff;
+}
+
+.instructions-text {
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+}
+
+.door-row {
+    text-align: center;
+}
+
+.door-frame {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.start-row {
+    border: 4px solid #BA5029;
+    box-shadow: 5px 5px grey;
+    margin: auto;
+    width: 120px;
+    height: 43px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #eb6536;
+    padding-top: 18px;
+    font-size: 18px;
+    text-align: center;
+    color: #010165;
+    margin-bottom: 21px;
+    cursor: pointer;
+}
+
+.streaks {
+    width: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.streak {
+    width: 150px;
+    text-align: center;
+}
+
+.streak div {
+    margin: auto;
+    background-color: rgb(0, 255, 255);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 2em;
+    font-family: sans-serif;
+}

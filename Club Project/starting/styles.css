@@ -1,0 +1,212 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+    border: 4px solid #372cff;
+    border-radius: 15px;
+    padding: 0% 2% 2% 2%;
+    width: 50%;
+    min-width: 300px;
+    margin: 40px auto;
+    font-size: 1.5rem ;
+}
+
+body a {
+    color: #372cff;
+    text-decoration: none;
+    transition: all 200ms ease-out;
+}
+
+body a:hover {
+    color: #26afff;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+    border-bottom: 2px solid blue;
+    z-index: 10;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0%;
+    margin: 0% 4%;
+    transition: all 500ms ease-out;
+}
+
+nav li:hover {
+    margin: 0;
+    padding: 0% 4%;
+    color: #372cff;
+    background-color: #d6d2ce;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Banner */
+
+.banner {
+    padding: 10% 0;
+    margin-top: 58px;
+    background-image: url(./pictures/mother-board-small.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 5rem;
+    color: white;
+}
+
+/* Who are we? */
+.who_are_we {
+    margin-top: 5%;
+}
+
+.who_are_we h2 {
+    font-size: 3rem;
+}
+
+.who_are_we p {
+    margin: 0 auto;
+    
+}
+
+/* Join us section */
+.join_us {
+    background-image: url(./pictures/join_us_background.jpeg);
+    background-size: cover;
+    height: fit-content;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.join_us h2 {
+    font-size: 2.5em;
+}
+
+.join_us p, .join_us li {
+    font-size: 1.3em;
+}
+
+.join_us .join_us_info {
+    color: black;
+    width: 50%;
+    background-color: #e8e3e0;
+    opacity: 0.6;
+}
+
+.join_us .join_us_info .contact_us_steps {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.join_us .join_us_contact {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.join_us_contact h3 {
+    font-size: 1.6em;
+}
+
+.join_us_contact .contact_button {
+    width: 100%;
+    margin: 2.7em auto;
+    color: black;
+    background-color: #e8e3e0;
+    opacity: 0.6;
+    font-size: 2.5em;
+    font-weight: bold;
+    transition: all 750ms ease-out 200ms;
+}
+
+.join_us_contact .contact_button:hover {
+    margin: 2.7em auto;
+    border-radius: 2.7em;
+    border: 2px solid blue;
+    width: 10em;
+    opacity: 1;
+}
+
+/* Our Last Win */
+article .our_last_win {
+    border: 0px;
+}
+
+.our_last_win img {
+    width: 90%;
+    border-radius: 15px;
+}
+
+/* Galery */
+
+.galery {
+    text-align: center;
+}
+
+.galery img {
+    width: 20%;
+    min-width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.galery img:hover {
+    border: 3px solid #372cff;
+}
+
+/* Footer */
+footer {
+    background-color: #c7c5c4;
+    padding: 0.5% 3%;
+}
+
+@media only screen and (max-width: 600px){
+    article {
+        width: 90%;
+    }
+
+    nav li {
+        margin: 5px 4px;
+    }
+
+    .join_us {
+        flex-direction: column;
+    }
+
+    .join_us .join_us_info {
+        width: 100%;
+    }
+
+    .join_us .join_us_contact {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .banner h1 {
+        font-size: 3rem;
+    }
+
+    .galery img {
+        width: 90%;
+    }
+}
+
+

@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica;
+    background-image: url('../images/paint_picure.jpg');
+}
+
+header {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    color: khaki;
+    background-image: url(../images/pattern.jpeg);
+}
+
+.title {
+    font-family:  Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.product_name {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.brushes_title {
+    background-color: mediumspringgreen;
+}
+
+.frames_title {
+    background-color: lightcoral;
+}
+
+.paints_title {
+    background-color: skyblue;
+}
+
+.price {
+    color: blue;
+    font-weight: bold;
+}
